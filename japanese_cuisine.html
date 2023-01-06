@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/6a7cfe1363.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Japanese Cuisine</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#main-menu">
+    <!-- NAVBAR -->
+    <nav
+      id="main_menu"
+      class="navbar navbar-expand-md navbar-light bg-light fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/logo1.png" alt="KodeResto" width="150" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li><a class="nav-link active" href="index.html#home">Home</a></li>
+            <li><a class="nav-link" href="index.html#about">About</a></li>
+            <li><a class="nav-link" href="index.html#work">Work</a></li>
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                >Cuisines</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="specialty.html"
+                    >KodeResto Specialty</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="filipino-cuisine.html"
+                    >Filipino Cuisines</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="">American Cuisines</a></li>
+                <li>
+                  <a class="dropdown-item" href="chinese_cuisine.html"
+                    >Chinese Cuisines</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="japanese_cuisine.html"
+                    >Japanese Cuisines</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a class="nav-link" href="events.html">Events</a></li>
+            <li>
+              <a class="nav-link" href="index.html#contact">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="japanese-header">
+      <img class="w-100" src="./img/japanese.png" alt="" />
+      <div class="container">
+        <h1 id="header-title" class="fs-1">Japanese Cuisine</h1>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#home-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="home-tab-pane"
+              aria-selected="true"
+            >
+              Sushi & Sashimi
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#profile-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="profile-tab-pane"
+              aria-selected="false"
+            >
+              Tempura
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#contact-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="contact-tab-pane"
+              aria-selected="false"
+            >
+              Yakitori
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="card tab-pane fade show active"
+            id="home-tab-pane"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+            tabindex="0"
+          >
+            <img class="card-img-top" src="./img/sushi-sashimi.png" alt="" />
+            <h3 class="card-title p-4">Sushi & Sashimi</h3>
+            <p class="card-text px-4 pb-4">
+              This first item actually combines two categories, each with an
+              abundance of options. While they both could be described at
+              length, sushi and sashimi are often served together as two of the
+              more common Japanese dishes available in the U.S. It's easy to
+              forget that Japan is an island — that is until you notice the
+              importance of seafood in the cuisine. Live Japan explains that
+              sashimi consists of thin slices of raw fish served with soy sauce,
+              wasabi, and daikon radish. Tuna, salmon, flounder, shrimp, and
+              squid are all possible protein choices. Note the significant
+              absence of seaweed, rice, and other ingredients — sashimi keeps it
+              simple. <br />
+              <br />
+              Sushi on the other hand actually translates as vinegared rice,
+              according to Sushi FAQ, but the term now encompasses far more. At
+              its most basic, the rice is paired with raw seafood and rolled up
+              in seaweed for easy handling. However, anyone who's been to a
+              sushi restaurant can attest to the fact that the possible add-ins
+              are almost limitless. While many of the rolls popular outside of
+              Japan can hardly be considered authentic, extras such as fish roe,
+              egg, and vegetables are all possible accompaniments for the raw
+              fish. For the full experience, pair your sushi with pickled
+              ginger, wasabi, and soy sauce.
+            </p>
+          </div>
+          <div
+            class="card tab-pane fade"
+            id="profile-tab-pane"
+            role="tabpanel"
+            aria-labelledby="profile-tab"
+            tabindex="0"
+          >
+            <img class="card-img-top" src="./img/tempura.png" alt="" />
+            <h3 class="card-title p-4">Tempura</h3>
+            <p class="card-text px-4 pb-4">
+              The joys of fried food are shared worldwide, and Japan does it
+              exceptionally well with tempura. According to the Michelin Guide,
+              the origins of the dish actually come from the Portuguese in the
+              16th century, who made a habit of lightly flouring and frying
+              food. In Japan, fish, vegetables, and meat are all up for grabs —
+              popular favorites include sweet potatoes, shrimp, and mushrooms
+              (via Japan-Guide).<br />
+              <br />
+              Tempura continued to evolve in the centuries following its
+              introduction, with variations made to the batter content and fat
+              used for frying. Presently, each part of the country prepares the
+              dish with slight differences, and whereas flour, eggs, and water
+              make up the batter in the east, eggs aren't used in the west. The
+              eastern part opts for frying the tempura at high heat in sesame
+              oil and meanwhile, low heat and vegetable oil are the preferred
+              method in the west (via Michelin Guide). Dipping sauces, daikon
+              radish, or just salt are used to season the fried snack. If you've
+              got an appetite, larger meal-sized portions known as tendon are
+              served on top of rice with a sweet and salty sauce, pickles, and
+              miso soup, and the fried delicacy can even accompany noodle soups
+              (via Japan-Guide).
+            </p>
+          </div>
+          <div
+            class="card tab-pane fade"
+            id="contact-tab-pane"
+            role="tabpanel"
+            aria-labelledby="contact-tab"
+            tabindex="0"
+          >
+            <img class="card-img-top" src="./img/yakitori.png" alt="" />
+            <h3 class="card-title p-4">Yakitori</h3>
+            <p class="card-text px-4 pb-4">
+              If you can read Japanese, then you'll know that yakitori means
+              grilled bird, according to Food in Japan. Nowadays, the term can
+              be used to describe different skewered meats and vegetables cooked
+              on a grill, although chicken is the most common version of the
+              dish. In fact, yakitori made from chicken offal have traditionally
+              been predominant, though thanks to the sweet soy and mirin glaze
+              commonly used, you probably wouldn't even notice. Other styles of
+              yakitori are simply seasoned with salt, and plenty of regional
+              variations exist. Aside from all things chicken, other typical
+              ingredients include pork, mushrooms, leek, and even seafood.<br />
+              <br />
+              The skewers are a staple street food snack, which the Michelin
+              Guide indicates has been the case since the late 19th century. As
+              well, Yakitori-ya restaurants that specialize in the grilled
+              snacks are popular with the after-work crowd looking for a quick
+              bite over a pint of beer (via Japan-Guide). Yakitori is also easy
+              to find in izakayas, pub-style restaurants serving small plates.
+              Whether you order a couple of skewers or a dozen, yakitori always
+              makes for a satisfying bite.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Footer -->
+    <footer id="footer" class="pt-5 pb-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="./img/logo2.png" alt="" width="170px" />
+          </div>
+          <div class="col-md-3">
+            <h3>Our Products</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="specialty.html">KodeResto Specialty</a>
+              </li>
+              <li class="mb-2">
+                <a href="filipino-cuisine.html">Filipino Cuisine</a>
+              </li>
+              <li class="mb-2">
+                <a href="american_cuisines.html">American Cuisine</a>
+              </li>
+              <li class="mb-2">
+                <a href="chinese_cuisine.html">Chinese Cuisine</a>
+              </li>
+              <li class="mb-2">
+                <a href="japanese_cuisine.html">Japanese Cuisine</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>Quick Links</h3>
+            <ul class="list-unstyled footerlist">
+              <li class="mb-2">
+                <i class="fa-regular fas fas fa-phone"></i> &nbsp; +62 912 711
+                2407
+              </li>
+              <li class="mb-2">
+                <i class="fa-regular fa-envelope"></i> &nbsp;
+                hostess@koderesto.com
+              </li>
+              <li class="mb-2">
+                <i class="fa-regular fas fa-location-arrow"> </i>&nbsp; 100
+                Paghanapin St. Tondo, Manila
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h3>Search Here</h3>
+            <form action="">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search Here"
+                />
+                <button class="btn btn-info" type="button">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Copyright 2022 | SP404 | Kodego Bootcamp</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
+</html>

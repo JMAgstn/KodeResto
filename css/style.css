@@ -1,0 +1,99 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#mainMenu .nav-link {
+  color: #17a2b8;
+}
+
+#mainMenu .nav-link:hover {
+  background: #17a2b8;
+  color: #333;
+  border-radius: 5px;
+}
+
+#mainMenu .nav-link .active {
+  background: #17a2b8;
+  border-radius: 5px;
+  color: #333;
+}
+
+.carousel-control-prev-icon .carousel-control-next-icon {
+  background-color: #262626;
+}
+
+#contact {
+  background: url(../img/map.jpg);
+}
+
+#footer ul a {
+  color: #262626;
+  text-decoration: none;
+}
+
+#footer ul a:hover {
+  color: #17a2b8;
+}
+
+.chinese-header > img {
+  height: 30vh;
+  object-fit: cover;
+}
+.chinese-header h1 {
+  padding: 1rem 0;
+}
+.chinese-header button {
+  text-decoration: none;
+  color: black;
+  background-color: #f4f4f4;
+}
+.chinese-header .card {
+  background-color: #f4f4f4;
+}
+.japanese-header > img {
+  height: 30vh;
+  object-fit: cover;
+}
+.japanese-header h1 {
+  padding: 1rem 0;
+}
+.japanese-header button {
+  text-decoration: none;
+  color: black;
+  background-color: #f4f4f4;
+}
+.japanese-header .card {
+  background-color: #f4f4f4;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  #footer .row > * {
+    padding: 0.5rem 4rem;
+    text-align: center;
+  }
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.event {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 380px;
+  background-position: center;
+  background-size: cover;
+}
+.event-1 {
+  background-image: url(../img/valentines\ copy.png);
+}
+.event-2 {
+  background-image: url(../img/buffet\ copy.png);
+}
+.event-3 {
+  background-image: url(../img/chinesenewyear\ copy.png);
+}

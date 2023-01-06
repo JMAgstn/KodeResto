@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/6a7cfe1363.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>KodeResto</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#main-menu">
+    <!-- NAVBAR -->
+    <nav
+      id="main_menu"
+      class="navbar navbar-expand-md navbar-light bg-light fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo1.png" alt="KodeResto" width="150" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li><a class="nav-link active" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#work">Work</a></li>
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                >Cuisines</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="specialty.html">KodeResto Specialty</a>
+                </li>
+                <li><a class="dropdown-item" href="filipino-cuisine.html">Filipino Cuisines</a></li>
+                <li><a class="dropdown-item" href="american_cuisines.html">American Cuisines</a></li>
+                <li><a class="dropdown-item" href="chinese_cuisine.html">Chinese Cuisines</a></li>
+                <li><a class="dropdown-item" href="japanese_cuisine.html">Japanese Cuisines</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link" href="events.html">Events</a></li>
+            <li><a class="nav-link" href="#contact">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div
+        id="hero"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#hero"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div
+            id="img-one"
+            class="carousel-item active"
+            data-bs-interval="7000"
+          >
+            <img src="./img/banner_01.jpg" class="d-block w-100" alt="" />
+            
+          </div>
+          <div id="img-two" class="carousel-item" data-bs-interval="7000">
+            <img
+              src="./img/banner_02.jpg"
+              class="d-block w-100"
+              alt=""
+            />
+            
+          </div>
+          <div id="img-three" class="carousel-item" data-bs-interval="7000">
+            <img src="./img/banner_03.jpg" class="d-block w-100" alt="" />
+            
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#hero"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#hero"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 about pt-2">
+                    <div>
+                      <h2>About Us</h2>
+                    <h6>What we do?</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, eum? Perferendis rerum ducimus possimus, ab, quasi odit delectus nesciunt explicabo dignissimos alias officiis optio nulla est sit dolore deleniti aperiam laboriosam ipsum. Praesentium, itaque quae cumque ullam quaerat, mollitia voluptates quis ipsa accusantium esse dolorum rem dolore, corrupti laudantium atque?            
+                    </p>
+                    <a class="btn btn-info pb-2" href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/about.jpg" alt="">
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Area -->
+    <section id="work" class="mt-5 pb-5">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="text-center">
+                <h2>How we Work</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, aut!
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/work1.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="Card-title">This is the Card Title</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, animi.
+                            </p>
+                            <a class="btn btn-info" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/work2.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="Card-title">This is the Card Title</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, animi.
+                            </p>
+                            <a class="btn btn-info" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/work3.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="Card-title">This is the Card Title</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, animi.
+                            </p>
+                            <a class="btn btn-info" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact us -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-2 col-md-8">
+                    <div class="card p-4 my-5 text-center">
+                        <h2>Contact Us</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, cupiditate?
+                        </p>
+
+                        <form action="" class="p-3 text-start">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="name"
+                                 name="" 
+                                 id="" 
+                                 placeholder="" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Your phone</label>
+                                <input type="name"
+                                 name="" 
+                                 id="" 
+                                 placeholder="" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Enter your Message" class="form-control"></textarea>
+                            </div>
+                            <a class="btn btn-info" href="">Send</a>  
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="pt-5 pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./img/logo2.png" alt="" width="170px">
+                </div>
+                <div class="col-md-3">
+                    <h3>Our Products</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"> <a href="specialty.html">KodeResto Specialty</a></li>
+                        <li class="mb-2"> <a href="filipino-cuisine.html">Filipino Cuisine</a></li>
+                        <li class="mb-2"> <a href="american_cuisines.html">American Cuisine</a></li>
+                        <li class="mb-2"> <a href="chinese_cuisine.html">Chinese Cuisine</a></li>
+                        <li class="mb-2"> <a href="japanese_cuisine.html">Japanese Cuisine</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                  <h3>Quick Links</h3>
+                  <ul class="list-unstyled footerlist">
+                    <li class="mb-2">
+                      <i class="fa-regular fas fas fa-phone"></i> &nbsp; +62 912 711
+                      2407
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa-regular fa-envelope"></i> &nbsp;
+                      hostess@koderesto.com
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa-regular fas fa-location-arrow"> </i>&nbsp; 100
+                      Paghanapin St. Tondo, Manila
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Search Here</h3>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text"
+                            class="form-control"
+                            placeholder="Search Here">
+                            <button class="btn btn-info" type="button">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>Copyright 2022 | SP404 | Kodego Bootcamp</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  </body>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
+</html>
